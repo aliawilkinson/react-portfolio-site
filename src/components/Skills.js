@@ -1,6 +1,7 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import sre from "../assets/img/sre.svg";
+import cidi from "../assets/img/cidi.svg";
+import ado from "../assets/img/ado.svg";
+import powershell from "../assets/img/powershell.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -38,20 +39,20 @@ export const Skills = () => {
                         <p>I started at the front end with React, AWS and linux, went to the backend with LAMP stack, went to data engineering using Python, AWS redshift, and Luigi. Now I do Site Reliability Engineering/DevOps work with Azure, and dotnet. I enjoy being language/tool agnostic and believe understanding fundamentals is core to getting any project done.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={sre} alt="Image" />
                                 <h5>Site Reliability Engineering</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={cidi} alt="Image" />
                                 <h5>CI/CD Pipelines</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Automation</h5>
+                                <img src={powershell} alt="Image" />
+                                <h5>Powershell Automation</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Infrastructure Troubleshooting</h5>
+                                <img src={ado} alt="Image" />
+                                <h5>Azure DevOps</h5>
                             </div>
                         </Carousel>
                     </div>

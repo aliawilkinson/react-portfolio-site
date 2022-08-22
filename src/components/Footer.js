@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { MailchimpForm } from "./MailchimpForm";
 import logo from "../assets/img/aw-logo.png";
 import linkedinicon from "../assets/img/linkedin.svg";
+import github from "../assets/img/github.svg";
 
 export const Footer = () => {
   return (
@@ -14,7 +15,8 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={linkedinicon} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/aliawilkinson/" target="blank"><img src={linkedinicon} alt="Icon" /></a>
+              <a href="https://github.com/aliawilkinson" target="blank"><img src={github} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
