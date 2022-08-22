@@ -15,9 +15,9 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Projects />
-      <Contact />
-      <Newsletter />
+      {/* <Projects />
+      <Contact /> */}
+      {/* <Newsletter /> */}
       <Footer />
     </div>
   );
