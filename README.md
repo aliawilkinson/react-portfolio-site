@@ -1,6 +1,6 @@
 # Personal Portfolio Website in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create Alia Wilkinson Portfolio](https://github.com/facebook/create-react-app).
 
 ![image](https://user-images.githubusercontent.com/35716076/185834665-355beb39-f4d3-4f17-b0d5-edc0f29d8cf5.png)
 
