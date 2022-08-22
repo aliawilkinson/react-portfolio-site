@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+// import { SMTPClient } from 'emailjs';
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -50,7 +51,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Alia"/>
               }
             </TrackVisibility>
           </Col>
